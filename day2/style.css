@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    padding-top: 150px;
+}
+
+.mainForm {
+    margin: 0 auto;
+    width: 300px;
+    height: 415px;
+    text-align: center;
+}
+
+.logo {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 21px;
+}
+
+.mainForm h1 {
+    margin-bottom: 17px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.inputBox {
+    width: 288px;
+    height: 44px;
+    margin: 0 auto;
+    margin-bottom: -1px;
+    display: block;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+.inputBox:focus {
+    outline-color: #007BFF;
+}
+
+.mainForm input[type=email] {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.mainForm input[type=password] {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-bottom: 13px;
+}
+
+.mainForm input[type=submit] {
+    width: 300px;
+    height: 48px;
+    background-color: #007BFF;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.mainForm .checkboxDesc {
+    display: inline-block;
+    margin-bottom: 27px;
+    color: #212529;
+}
+
+.mainForm .copyright {
+    margin-top: 50px;
+    font-size: 16px;
+    color: #6c757d;
+}
